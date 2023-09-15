@@ -1,0 +1,104 @@
+<div class="header">
+  <div class="container">
+    <div class="row v-center">
+
+      <div class="menu-item item-left">
+        <div class="logo">
+          <div class="logo-container">
+            <img [src]="logoImage">
+          </div>
+          <div class="store-details">
+            <h2>{{ storeName }}</h2>
+            <p>{{ storeSlogan }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-item item-center">
+
+        <nav class="menu">
+          <ul class="menu-main">
+            <li class="menu-item-has-children">
+              <a href="#">Women <i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item"
+                *ngFor="let menuItem of women_list_items;
+                 let counter = index"
+                 [ngClass]="{'section2': counter>3}">
+                  <h4>{{ menuItem.name }}</h4>
+                  <ul>
+                    <li *ngFor="let subItem of menuItem.subItems">
+                      <a [href]="subItem.url">{{ subItem.name }}</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            <li class="menu-item-has-children">
+              <a href="#">Men <i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item"
+                *ngFor="let menuItem of men_list_items;
+                 let counter = index"
+                 [ngClass]="{'section2': counter>3}">
+                  <h4>{{ menuItem.name }}</h4>
+                  <ul>
+                    <li *ngFor="let subItem of menuItem.subItems">
+                      <a [href]="subItem.url">{{ subItem.name }}</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="menu-item-has-children">
+              <a href="#">Kids <i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu single-column-menu">
+                <ul>
+                  <li *ngFor="let menuItem of kids_list_items">
+                    <a [href]="menuItem.url">{{ menuItem.name }}</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="menu-item-has-children">
+              <a href="#">Home & Living <i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu single-column-menu">
+                <ul>
+                  <li *ngFor="let menuItem of home_and_living_list_items">
+                    <a [href]="menuItem.url">{{ menuItem.name }}</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="menu-item-has-children">
+              <a href="#">Electronics <i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu mega-menu mega-menu-column-3">
+                <div class="list-item"
+                *ngFor="let menuItem of electronics_list_items">
+                  <h4>{{ menuItem.name }}</h4>
+                  <ul>
+                    <li *ngFor="let subItem of menuItem.subItems">
+                      <a [href]="subItem.url">{{ subItem.name }}</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+
+      <div class="menu-item item-right">
+        <a href="#"><img [src]="searchImage"></a>
+        <a href="#"><img [src]="notificationImage"></a>
+        <a href="#"><img [src]="userImage"></a>
+        <a href="#"><img [src]="bagImage"></a>
+      </div>
+
+    </div>
+  </div>
+</div>

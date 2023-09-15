@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+::after, ::before{
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color:#47258F;
+  --secondary-color: #915DFF;
+  --white-color: white;
+  --darkgray-color: #555555;
+  --lightgray-color: lightgrey;
+  --gray-color: gray;
+  --discount-color: #e9725d;
+  --mediamgray-color: #9c9c9c;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+ul{list-style: none;}

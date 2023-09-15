@@ -1,0 +1,365 @@
+{
+  "grid_lists": [
+    {
+      "grid": {
+        "name": "Recently added",
+        "viewAll": "View all",
+        "products": [
+          {
+            "id": 1,
+            "name": " Flower Embroidered Wallet",
+            "images": [
+              "https://i.etsystatic.com/35478736/r/il/06c36d/4787257974/il_794xN.4787257974_fjhh.jpg",
+              "https://i.etsystatic.com/35478736/r/il/31ded0/4787257940/il_794xN.4787257940_lro0.jpg"
+            ],
+            "availability": "In stock",
+            "discount": 30,
+            "stars": [1, 2, 3, 4],
+            "description": "Add a touch of floral elegance to your essentials.",
+            "price": 15
+          },
+          {
+            "id": 2,
+            "name": "Flower Embroidery Cardigan",
+            "images": [
+              "https://harmonygallery.net/cdn/shop/products/0_O1CN01Cv6OHn1FHBEusFR1c__0-item_pic.jpg?v=1654696300&width=600",
+              "https://harmonygallery.net/cdn/shop/products/4_O1CN01405qT61FHBEou7gsA__3159460461.jpg?v=1654696300&width=600",
+              "https://harmonygallery.net/cdn/shop/products/2_O1CN01MHfbmh1FHBF2RFWc7__3159460461.jpg?v=1654696301&width=600",
+              "https://harmonygallery.net/cdn/shop/products/3_O1CN01n5OyMB1FHBEyLreWF__3159460461.jpg?v=1654696301&width=600"
+            ],
+            "availability": "In stock",
+            "discount": 35,
+            "stars": [1, 2, 3, 4, 5],
+            "description": "Embrace the beauty of nature with a blooming masterpiece",
+            "price": 45
+          },
+          {
+            "id": 3,
+            "name": "Cartoon Baby Boy Romper",
+            "images": [
+              "https://harmonygallery.net/cdn/shop/files/0_O1CN01pLENQs1CAp1AOxTDC__3404810041.jpg?v=1686597540&width=600",
+              "https://harmonygallery.net/cdn/shop/files/2_O1CN01ThVsrx1CAp12kydzo__3404810041.jpg?v=1686597539&width=600",
+              "https://harmonygallery.net/cdn/shop/files/3_O1CN01l9Z9L41CAp12kyynJ__3404810041.jpg?v=1686597541&width=600"
+            ],
+            "availability": "In stock",
+            "discount": 25,
+            "stars": [1, 2, 3, 4],
+            "description": "Charming and comfortable outfit that's perfect for playdates and special occasions.",
+            "price": 25
+          },
+          {
+            "id": 4,
+            "name": "C&K Bag - Refined Design Bag",
+            "images": [
+              "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/24/60ab57fda2f48c0eada64a94/m_60ab583ecb692cf3b599b8e2.jpeg",
+              "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/24/60ab57fda2f48c0eada64a94/m_60ab583fae766f15334e139e.jpeg",
+              "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/24/60ab57fda2f48c0eada64a94/m_60ab583ee97e48d6eea0736a.jpeg"
+            ],
+            "availability": "In stock",
+            "stars": [1, 2, 3, 4],
+            "description": "Sophisticated and stylish choice that effortlessly blends fashion and functionality for any occasion.",
+            "price": 20
+          },
+          {
+            "id": 5,
+            "name": "Canvas Flat Casual Sneakers",
+            "images": [
+              "https://img.fantaskycdn.com/56dfe41400aa1dccc3737e7c1bb47f71.jpeg",
+              "https://img.fantaskycdn.com/7e27a4092dd500d3a2b671b01aa0ec01.jpeg",
+              "https://img.fantaskycdn.com/b8f144746ffbcf91e3b3dbd7c3dbe3a5.jpeg"
+            ],
+            "availability": "In stock",
+            "stars": [1, 2, 3, 4],
+            "description": "Step into style and comfort with our versatile footwear that pairs effortlessly with any outfit.",
+            "price": 30
+          },
+          {
+            "id": 6,
+            "name": "knitted half zip-up collar sweater",
+            "images": [
+            "https://realtakai.com/cdn/shop/products/1_f96bdd23-c769-4d8f-bd7e-59fe4d7728ba_1800x1800.png?v=1683222476",
+            "https://realtakai.com/cdn/shop/products/O1CN016exror1CJywerDaIB__39600061_1800x1800.jpg?v=1683222368",
+            "https://realtakai.com/cdn/shop/products/2_1518ce06-4566-461a-b751-bbcf407c415f_1800x1800.jpg?v=1683222363"
+          ],
+            "availability": "In stock",
+            "discount": 25,
+            "stars": [1, 2, 3, 4],
+            "description": "Fashionable and comfortable choice for those cooler days.",
+            "price": 30
+          },
+          {
+            "id": 7,
+            "name": "Lamb Print Cardigan",
+            "images": [
+              "https://i.etsystatic.com/33015283/r/il/54b73b/3908456604/il_794xN.3908456604_b66o.jpg",
+              "https://i.etsystatic.com/33015283/r/il/9b23ba/3955954559/il_794xN.3955954559_l94i.jpg",
+              "https://i.etsystatic.com/33015283/r/il/3f2131/3908456964/il_794xN.3908456964_968d.jpg",
+              "https://i.etsystatic.com/33015283/r/il/55656e/3908457018/il_794xN.3908457018_nhm9.jpg"
+            ],
+            "availability": "In stock",
+            "discount": 10,
+            "stars": [1, 2, 3, 4],
+            "description": "Wrap yourself in cozy elegance with our soft, stylish layer that effortlessly combines warmth and charm.",
+            "price": 35
+          },
+          {
+            "id": 8,
+            "name": "Casual Autumn/Winter Cardigan",
+            "images": [
+              "https://i.etsystatic.com/27839171/r/il/1f7597/4534944887/il_794xN.4534944887_10n1.jpg",
+              "https://i.etsystatic.com/27839171/r/il/df2307/4487574936/il_794xN.4487574936_fb8q.jpg",
+              "https://i.etsystatic.com/33354871/r/il/5564c8/3942035076/il_794xN.3942035076_svet.jpg",
+              "https://i.etsystatic.com/33354871/r/il/23ce0b/3989480555/il_794xN.3989480555_pe6d.jpg"
+            ],
+            "availability": "In stock",
+            "discount": 15,
+            "stars": [1, 2, 3, 4, 5],
+            "description": "Elevate your style with a versatile essential perfect for chilly days.",
+            "price": 40
+          }
+        ]
+      }
+    },
+    {
+      "grid": {
+        "name": "Most popular",
+        "viewAll": "View all",
+        "products": [
+          {
+            "id": 1,
+            "name": " Flower Embroidered Wallet",
+            "images": [
+              "https://i.etsystatic.com/35478736/r/il/06c36d/4787257974/il_794xN.4787257974_fjhh.jpg",
+              "https://i.etsystatic.com/35478736/r/il/31ded0/4787257940/il_794xN.4787257940_lro0.jpg"
+            ],
+            "availability": "In stock",
+            "discount": 30,
+            "stars": [1, 2, 3, 4],
+            "description": "Add a touch of floral elegance to your essentials.",
+            "price": 15
+          },
+          {
+            "id": 2,
+            "name": "Flower Embroidery Cardigan",
+            "images": [
+              "https://harmonygallery.net/cdn/shop/products/0_O1CN01Cv6OHn1FHBEusFR1c__0-item_pic.jpg?v=1654696300&width=600",
+              "https://harmonygallery.net/cdn/shop/products/4_O1CN01405qT61FHBEou7gsA__3159460461.jpg?v=1654696300&width=600",
+              "https://harmonygallery.net/cdn/shop/products/2_O1CN01MHfbmh1FHBF2RFWc7__3159460461.jpg?v=1654696301&width=600",
+              "https://harmonygallery.net/cdn/shop/products/3_O1CN01n5OyMB1FHBEyLreWF__3159460461.jpg?v=1654696301&width=600"
+            ],
+            "availability": "In stock",
+            "discount": 35,
+            "stars": [1, 2, 3, 4, 5],
+            "description": "Embrace the beauty of nature with a blooming masterpiece",
+            "price": 45
+          },
+          {
+            "id": 3,
+            "name": "Cartoon Baby Boy Romper",
+            "images": [
+              "https://harmonygallery.net/cdn/shop/files/0_O1CN01pLENQs1CAp1AOxTDC__3404810041.jpg?v=1686597540&width=600",
+              "https://harmonygallery.net/cdn/shop/files/2_O1CN01ThVsrx1CAp12kydzo__3404810041.jpg?v=1686597539&width=600",
+              "https://harmonygallery.net/cdn/shop/files/3_O1CN01l9Z9L41CAp12kyynJ__3404810041.jpg?v=1686597541&width=600"
+            ],
+            "availability": "In stock",
+            "discount": 25,
+            "stars": [1, 2, 3, 4],
+            "description": "Charming and comfortable outfit that's perfect for playdates and special occasions.",
+            "price": 25
+          },
+          {
+            "id": 4,
+            "name": "C&K Bag - Refined Design Bag",
+            "images": [
+              "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/24/60ab57fda2f48c0eada64a94/m_60ab583ecb692cf3b599b8e2.jpeg",
+              "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/24/60ab57fda2f48c0eada64a94/m_60ab583fae766f15334e139e.jpeg",
+              "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/24/60ab57fda2f48c0eada64a94/m_60ab583ee97e48d6eea0736a.jpeg"
+            ],
+            "availability": "In stock",
+            "stars": [1, 2, 3, 4],
+            "description": "Sophisticated and stylish choice that effortlessly blends fashion and functionality for any occasion.",
+            "price": 20
+          },
+          {
+            "id": 5,
+            "name": "Canvas Flat Casual Sneakers",
+            "images": [
+              "https://img.fantaskycdn.com/56dfe41400aa1dccc3737e7c1bb47f71.jpeg",
+              "https://img.fantaskycdn.com/7e27a4092dd500d3a2b671b01aa0ec01.jpeg",
+              "https://img.fantaskycdn.com/b8f144746ffbcf91e3b3dbd7c3dbe3a5.jpeg"
+            ],
+            "availability": "In stock",
+            "stars": [1, 2, 3, 4],
+            "description": "Step into style and comfort with our versatile footwear that pairs effortlessly with any outfit.",
+            "price": 30
+          },
+          {
+            "id": 6,
+            "name": "knitted half zip-up collar sweater",
+            "images": [
+            "https://realtakai.com/cdn/shop/products/1_f96bdd23-c769-4d8f-bd7e-59fe4d7728ba_1800x1800.png?v=1683222476",
+            "https://realtakai.com/cdn/shop/products/O1CN016exror1CJywerDaIB__39600061_1800x1800.jpg?v=1683222368",
+            "https://realtakai.com/cdn/shop/products/2_1518ce06-4566-461a-b751-bbcf407c415f_1800x1800.jpg?v=1683222363"
+          ],
+            "availability": "In stock",
+            "discount": 25,
+            "stars": [1, 2, 3, 4],
+            "description": "Fashionable and comfortable choice for those cooler days.",
+            "price": 30
+          },
+          {
+            "id": 7,
+            "name": "Lamb Print Cardigan",
+            "images": [
+              "https://i.etsystatic.com/33015283/r/il/54b73b/3908456604/il_794xN.3908456604_b66o.jpg",
+              "https://i.etsystatic.com/33015283/r/il/9b23ba/3955954559/il_794xN.3955954559_l94i.jpg",
+              "https://i.etsystatic.com/33015283/r/il/3f2131/3908456964/il_794xN.3908456964_968d.jpg",
+              "https://i.etsystatic.com/33015283/r/il/55656e/3908457018/il_794xN.3908457018_nhm9.jpg"
+            ],
+            "availability": "In stock",
+            "discount": 10,
+            "stars": [1, 2, 3, 4],
+            "description": "Wrap yourself in cozy elegance with our soft, stylish layer that effortlessly combines warmth and charm.",
+            "price": 35
+          },
+          {
+            "id": 8,
+            "name": "Casual Autumn/Winter Cardigan",
+            "images": [
+              "https://i.etsystatic.com/27839171/r/il/1f7597/4534944887/il_794xN.4534944887_10n1.jpg",
+              "https://i.etsystatic.com/27839171/r/il/df2307/4487574936/il_794xN.4487574936_fb8q.jpg",
+              "https://i.etsystatic.com/33354871/r/il/5564c8/3942035076/il_794xN.3942035076_svet.jpg",
+              "https://i.etsystatic.com/33354871/r/il/23ce0b/3989480555/il_794xN.3989480555_pe6d.jpg"
+            ],
+            "availability": "In stock",
+            "discount": 15,
+            "stars": [1, 2, 3, 4, 5],
+            "description": "Elevate your style with a versatile essential perfect for chilly days.",
+            "price": 40
+          }
+        ]
+      }
+    },
+    {
+      "grid": {
+        "name": "Our Top picks",
+        "viewAll": "View all",
+        "products": [
+          {
+            "id": 1,
+            "name": " Flower Embroidered Wallet",
+            "images": [
+              "https://i.etsystatic.com/35478736/r/il/06c36d/4787257974/il_794xN.4787257974_fjhh.jpg",
+              "https://i.etsystatic.com/35478736/r/il/31ded0/4787257940/il_794xN.4787257940_lro0.jpg"
+            ],
+            "availability": "In stock",
+            "discount": 30,
+            "stars": [1, 2, 3, 4],
+            "description": "Add a touch of floral elegance to your essentials.",
+            "price": 15
+          },
+          {
+            "id": 2,
+            "name": "Flower Embroidery Cardigan",
+            "images": [
+              "https://harmonygallery.net/cdn/shop/products/0_O1CN01Cv6OHn1FHBEusFR1c__0-item_pic.jpg?v=1654696300&width=600",
+              "https://harmonygallery.net/cdn/shop/products/4_O1CN01405qT61FHBEou7gsA__3159460461.jpg?v=1654696300&width=600",
+              "https://harmonygallery.net/cdn/shop/products/2_O1CN01MHfbmh1FHBF2RFWc7__3159460461.jpg?v=1654696301&width=600",
+              "https://harmonygallery.net/cdn/shop/products/3_O1CN01n5OyMB1FHBEyLreWF__3159460461.jpg?v=1654696301&width=600"
+            ],
+            "availability": "In stock",
+            "discount": 35,
+            "stars": [1, 2, 3, 4, 5],
+            "description": "Embrace the beauty of nature with a blooming masterpiece",
+            "price": 45
+          },
+          {
+            "id": 3,
+            "name": "Cartoon Baby Boy Romper",
+            "images": [
+              "https://harmonygallery.net/cdn/shop/files/0_O1CN01pLENQs1CAp1AOxTDC__3404810041.jpg?v=1686597540&width=600",
+              "https://harmonygallery.net/cdn/shop/files/2_O1CN01ThVsrx1CAp12kydzo__3404810041.jpg?v=1686597539&width=600",
+              "https://harmonygallery.net/cdn/shop/files/3_O1CN01l9Z9L41CAp12kyynJ__3404810041.jpg?v=1686597541&width=600"
+            ],
+            "availability": "In stock",
+            "discount": 25,
+            "stars": [1, 2, 3, 4],
+            "description": "Charming and comfortable outfit that's perfect for playdates and special occasions.",
+            "price": 25
+          },
+          {
+            "id": 4,
+            "name": "C&K Bag - Refined Design Bag",
+            "images": [
+              "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/24/60ab57fda2f48c0eada64a94/m_60ab583ecb692cf3b599b8e2.jpeg",
+              "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/24/60ab57fda2f48c0eada64a94/m_60ab583fae766f15334e139e.jpeg",
+              "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/24/60ab57fda2f48c0eada64a94/m_60ab583ee97e48d6eea0736a.jpeg"
+            ],
+            "availability": "In stock",
+            "stars": [1, 2, 3, 4],
+            "description": "Sophisticated and stylish choice that effortlessly blends fashion and functionality for any occasion.",
+            "price": 20
+          },
+          {
+            "id": 5,
+            "name": "Canvas Flat Casual Sneakers",
+            "images": [
+              "https://img.fantaskycdn.com/56dfe41400aa1dccc3737e7c1bb47f71.jpeg",
+              "https://img.fantaskycdn.com/7e27a4092dd500d3a2b671b01aa0ec01.jpeg",
+              "https://img.fantaskycdn.com/b8f144746ffbcf91e3b3dbd7c3dbe3a5.jpeg"
+            ],
+            "availability": "In stock",
+            "stars": [1, 2, 3, 4],
+            "description": "Step into style and comfort with our versatile footwear that pairs effortlessly with any outfit.",
+            "price": 30
+          },
+          {
+            "id": 6,
+            "name": "knitted half zip-up collar sweater",
+            "images": [
+            "https://realtakai.com/cdn/shop/products/1_f96bdd23-c769-4d8f-bd7e-59fe4d7728ba_1800x1800.png?v=1683222476",
+            "https://realtakai.com/cdn/shop/products/O1CN016exror1CJywerDaIB__39600061_1800x1800.jpg?v=1683222368",
+            "https://realtakai.com/cdn/shop/products/2_1518ce06-4566-461a-b751-bbcf407c415f_1800x1800.jpg?v=1683222363"
+          ],
+            "availability": "In stock",
+            "discount": 25,
+            "stars": [1, 2, 3, 4],
+            "description": "Fashionable and comfortable choice for those cooler days.",
+            "price": 30
+          },
+          {
+            "id": 7,
+            "name": "Lamb Print Cardigan",
+            "images": [
+              "https://i.etsystatic.com/33015283/r/il/54b73b/3908456604/il_794xN.3908456604_b66o.jpg",
+              "https://i.etsystatic.com/33015283/r/il/9b23ba/3955954559/il_794xN.3955954559_l94i.jpg",
+              "https://i.etsystatic.com/33015283/r/il/3f2131/3908456964/il_794xN.3908456964_968d.jpg",
+              "https://i.etsystatic.com/33015283/r/il/55656e/3908457018/il_794xN.3908457018_nhm9.jpg"
+            ],
+            "availability": "In stock",
+            "discount": 10,
+            "stars": [1, 2, 3, 4],
+            "description": "Wrap yourself in cozy elegance with our soft, stylish layer that effortlessly combines warmth and charm.",
+            "price": 35
+          },
+          {
+            "id": 8,
+            "name": "Casual Autumn/Winter Cardigan",
+            "images": [
+              "https://i.etsystatic.com/27839171/r/il/1f7597/4534944887/il_794xN.4534944887_10n1.jpg",
+              "https://i.etsystatic.com/27839171/r/il/df2307/4487574936/il_794xN.4487574936_fb8q.jpg",
+              "https://i.etsystatic.com/33354871/r/il/5564c8/3942035076/il_794xN.3942035076_svet.jpg",
+              "https://i.etsystatic.com/33354871/r/il/23ce0b/3989480555/il_794xN.3989480555_pe6d.jpg"
+            ],
+            "availability": "In stock",
+            "discount": 15,
+            "stars": [1, 2, 3, 4, 5],
+            "description": "Elevate your style with a versatile essential perfect for chilly days.",
+            "price": 40
+          }
+        ]
+      }
+    }
+  ]
+}
+

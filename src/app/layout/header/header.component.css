@@ -1,0 +1,56 @@
+header{
+  background-color: var(--primary-color);
+  color: white;
+  padding-inline: 20px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.general-info{
+  display: flex;
+  align-items: center;
+}
+
+.col{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.general-info img{
+  width: 24px;
+  margin-right: 2px;
+}
+
+.social-media{
+  display: flex;
+}
+
+.social-media img{
+  width: 24px;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+select{
+  background-color: inherit;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+option{
+  background-color: var(--primary-color);
+}
+
+.general-info span{
+  font-size: smaller;
+}
+
+
+

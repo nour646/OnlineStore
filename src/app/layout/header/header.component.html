@@ -1,0 +1,38 @@
+<header class="header">
+  <div class="container">
+    <div class="general-info">
+
+      <a href="#" class="col">
+        <img [src]="callImage">
+        <span>{{ phoneNumber }}</span>
+      </a>
+
+      <div class="col">
+        <img [src]="locationImage">
+        <select id="location" [(ngModel)]="selectedLocation">
+          <option *ngFor="let location of locations" [value]="location">{{ location }}</option>
+        </select>
+      </div>
+
+      <div class="col">
+        <img [src]="dollarImage">
+        <select id="currency" [(ngModel)]="selectedCurrency">
+          <option *ngFor="let currency of currencies" [value]="currency">{{ currency }}</option>
+        </select>
+      </div>
+
+      <div class="col">
+        <img [src]="translateImage">
+        <select id="translator" [(ngModel)]="selectedLanguage">
+          <option *ngFor="let lang of languages" [value]="lang.value">{{ lang.label }}</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="social-media">
+      <a href="#"><img [src]="facebookImage"></a>
+      <a href="#"><img [src]="youtubeImage"></a>
+      <a href="#"><img [src]="whatsappImage"></a>
+    </div>
+  </div>
+</header>

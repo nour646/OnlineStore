@@ -1,0 +1,101 @@
+<footer class="footer">
+
+  <div class="part-one">
+    <div class="container">
+      <div class="row">
+
+        <div class="footer-col store">
+          <div class="logo-container">
+            <img [src]="logoImage" class="logo">
+          </div>
+          <div class="store-details">
+            <h2>{{ storeName }}</h2>
+            <p>Store Slogan</p>
+            <ul class="social-media">
+              <li><a href="#"><img [src]="facebookImage"></a></li>
+              <li><a href="#"><img [src]="youtubeImage"></a></li>
+              <li><a href="#"><img [src]="whatsappImage"></a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="footer-col">
+          <h3>{{ about }}</h3>
+          <ul>
+            <li *ngFor="let link of aboutList"><a href="{{ link.url }}">{{ link.label }}</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>{{ customerService }}</h3>
+          <ul>
+            <li *ngFor="let link of customerServiceList"><a href="{{link.url}}">{{ link.label }}</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col subscription">
+          <h3>{{ subscribe }}</h3>
+          <div class="input-container">
+            <img class="input-image" [src]="emailImage" alt="Email Icon">
+            <input type="email" class="custom-input" placeholder="Email">
+          </div>
+          <ul>
+
+            <li>
+              <a href="#" class="contact-info">
+                <img [src]="locationImage">
+                <span>{{ location }}</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="contact-info">
+                <img [src]="callImage">
+                <span>{{ phoneNumber }}</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="contact-info">
+                <img [src]="mailImage">
+                <span>{{ mail }}</span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="part-two">
+    <div class="container">
+      <div class="row">
+
+        <div class="footer-col">
+          <p>{{ commercialRegister }}</p>
+          <p>{{ taxNumber }}</p>
+        </div>
+
+        <div class="footer-col">
+          <div class="copyright">
+            <img [src]="copyrightImage" alt="Copyright">
+            <p>{{ poweredBy }}</p>
+          </div>
+        </div>
+
+
+        <div class="footer-col payment-methods">
+          <img [src]="westernUnionImage">
+          <img [src]="amazonPayImage">
+          <img [src]="masterCardImage">
+          <img [src]="visaImage">
+          <img [src]="bankTransferImage">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,71 @@
+<div class="container">
+  <div class="card">
+    <div class="interaction-zone">
+      <div class="compare-btn">
+        <img src="assets\images\Product Card\Product-card\plus_circle_outline.svg">
+        <span>Compare</span>
+      </div>
+      <div class="share-btn">
+        <img src="assets\images\Product Card\Product-card\share_outline.svg">
+        <span>Share</span>
+      </div>
+    </div>
+
+    <div class="image-gallery">
+      <ul class="image-list">
+        <li *ngFor="let image of product.images">
+          <img [src]="product.images[currentIndex]">
+        </li>
+      </ul>
+
+      <div class="navigation-dots">
+        <span
+          class="dot"
+          *ngFor="let image of product.images; let i = index"
+          (click)="setCurrentIndex(i)"
+          [class.active]="i === currentIndex"
+        ></span>
+      </div>
+    </div>
+
+
+    <div class="content">
+      <div class="primary-details">
+        <h4 class="product-name">{{product.name}}</h4>
+        <div class="available-and-discount">
+          <span class="availability">{{ product.availability }}</span>
+          <span class="discount" *ngIf="product.discount !== undefined">-{{ product.discount }}%</span>
+        </div>
+      </div>
+
+      <div  class="rating">
+        <img *ngFor="let star of product.stars" src="assets\images\Product Card\Product-card\Star.svg">
+      </div>
+
+      <div class="description">{{product.description}}</div>
+
+      <div class="price">
+        <h2 class="current-price">
+          ${{ product.discount !== undefined ? product.price - (product.price * (product.discount / 100)) : product.price}}
+        </h2>
+        <h4 class="previous-price" *ngIf="product.discount !== undefined">
+          ${{ product.price}}
+        </h4>
+      </div>
+
+      <div class="button-container">
+        <div class="card-button">
+          <div class="cart-icon">
+            <img src="assets\images\Product Card\Product-card\ShoppingCart.svg">
+          </div>
+          <p>Add to cart</p>
+        </div>
+        <div class="like-button">
+          <img src="assets\images\Product Card\Product-card\heart_outline.svg">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>

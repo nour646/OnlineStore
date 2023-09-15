@@ -1,0 +1,39 @@
+<app-provided-services></app-provided-services>
+<div class="main-container" *ngFor="let collection of collections">
+  <div class="heading">
+    <h2 class="list_title">{{collection.grid.name}}</h2>
+    <a class="view-all" href="#">{{collection.grid.viewAll}}</a>
+  </div>
+  <div class="container">
+    <div class="wrapper">
+      <i
+        id="left"
+        class="fa-solid fa-angle-left"
+        (click)="scroll('left')"
+        [class.clicked]="leftArrowClicked"
+        (click)="handleLeftArrowClick()"
+      ></i>
+      <div class="carousel"
+           (mousedown)="dragStart($event)"
+           (touchstart)="dragStart($event)"
+           (mousemove)="dragging($event)"
+           (touchmove)="dragging($event)"
+           (mouseup)="dragStop()"
+           (mouseleave)="dragStop()"
+           (touchend)="dragStop()">
+        <div *ngFor="let product of collection.grid.products" class="product-cards">
+          <app-product-card [product]="product"></app-product-card>
+        </div>
+      </div>
+      <i
+        id="right"
+        class="fa-solid fa-angle-right"
+        (click)="scroll('right')"
+        [class.clicked]="rightArrowClicked"
+        (click)="handleRightArrowClick()"
+      ></i>
+    </div>
+  </div>
+
+</div>
+
